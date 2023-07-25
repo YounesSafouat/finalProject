@@ -1,0 +1,208 @@
+/*****************
+    - Header -
+*****************/
+header {
+	position:relative;
+	left:0;
+	top:0;
+	width:100%;
+	min-height:120px;
+	padding:50px 0;
+	color:#fff;
+	    background: #383838 url(https://www.athenadesignstudio.com/plugins/switch/images/bg.jpg) no-repeat center center;
+	margin-bottom:30px
+}
+
+/* Logo */
+header .logo {
+	clear:both;
+    display:block;
+	text-align:center;
+    padding-bottom:10px;
+}
+
+/* Title */
+header h1 {
+    font-weight:300;
+    font-size:24px;
+    color:#eee;
+	letter-spacing:2px;
+	text-align:center;
+	text-transform:uppercase;
+	margin:0 !important;
+	padding-bottom:25px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open Sans:400,600,800');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+input,
+p,
+a {
+    font-family: "Open Sans";
+    margin: 0px;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+}
+
+body {
+    background-color: #F1F2F3;
+}
+
+.container-fluid,
+.container {
+    max-width: 1200px;
+}
+
+.card-container {
+    padding: 100px 0px;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+.profile-card-2 {
+   background-size: cover;
+
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+
+		*{
+			font-family: 'Poppins', sans-serif;
+			 -webkit-user-select: none;
+    		-moz-user-select: -moz-none;
+    		-o-user-select: none;
+    		user-select: none;
+		}
+		img {
+  			-webkit-user-drag: none;
+  			-moz-user-drag: none;
+  			-o-user-drag: none;
+  			user-drag: none;
+		}
+		img {
+			pointer-events: none;
+		}
+		.movie_card{
+			padding: 0 !important;
+			width: 22rem;
+			margin:14px;
+			border-radius: 10px;
+			box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+		}
+		.movie_card img{
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			height: 33rem;
+		}
+		.movie_info{
+			color: #5e5c5c;
+		}
+
+		.movie_info i{
+			font-size: 20px;
+		}
+		.card-title{
+			width: 80%;
+			height: 4rem;
+		}
+		.play_button{
+			background-color: #ff3d49;
+   			position: absolute;
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			right: 20px;
+			bottom: 111px;
+			font-size: 27px;
+			padding-left: 21px;
+			padding-top: 16px;
+			color: #FFFFFF;
+			cursor: pointer;
+		}
+
+		.credits{
+			margin-top: 20px;
+			margin-bottom: 20px;
+			border-radius: 8px;
+			border: 2px solid #8e24aa;
+			font-size: 18px;
+		}
+		.credits .card-body{
+			padding: 0;
+		}
+		.credits p{
+			padding-top: 15px;
+			padding-left: 18px;
+		}
+		.credits .card-body i{
+			color: #8e24aa;
+		}
